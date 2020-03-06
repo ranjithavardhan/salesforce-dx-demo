@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable">
+    <aura:attribute name="firstName" type="String" default="Salesforce"/>
+    <aura:attribute name="lastName"  type="String" default="Casts"/>
+
+    {!v.fullName}
+
+    <lightning:button label="Click Me!" onclick="{!c.handleClick}" />
+</aura:component>	
