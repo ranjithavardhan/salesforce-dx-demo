@@ -2,6 +2,8 @@
     <aura:attribute name="firstName" type="String" default="Salesforce"/>
     <aura:attribute name="lastName"  type="String" default="Casts"/>
 
+    <aura:attribute name="fullName" type="String"/>
+
     {!v.fullName}
 
     <lightning:button label="Click Me!" onclick="{!c.handleClick}" />
